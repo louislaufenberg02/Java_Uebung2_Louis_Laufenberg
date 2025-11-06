@@ -2,7 +2,7 @@ package h3;
 
 public class H3_main {
 	public static void main(String[] args) {
-		int i = 1, j = 2, k = -10;
+		int i = 201, j = 101, k = 3;
 		
 		boolean eins;
 		eins = i > j;
@@ -12,6 +12,8 @@ public class H3_main {
 		
 		boolean drei;
 		drei = j > 100;
+		
+		k = -10;
 		
 		if (eins == true && zwei == false && drei == false) {
 			k = 1;
@@ -25,9 +27,6 @@ public class H3_main {
 		else if (eins == false && zwei == false && drei == false) {
 			k = 4;
 		}
-		else {
-			k = -10; //falls k initiell ungleich -10 wäre
-		}
-		System.out.println(k); //optional
+		System.out.println(k); 
 	}
 }
